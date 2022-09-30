@@ -1,0 +1,30 @@
+{
+  "name": "new",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "new.cjs"
+  ],
+  "bin": {
+    "new": "new.cjs",
+    "new-vue": "new.cjs",
+    "new-react": "new.cjs"
+  },
+  "scripts": {
+    "build": "node scripts/esbuild.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gradient-string": "^1.1.2",
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^18.7.23",
+    "esbuild": "^0.15.9",
+    "gradient-string": "^2.0.2",
+    "kolorist": "^1.6.0",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2"
+  }
+}
