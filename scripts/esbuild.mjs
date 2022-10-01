@@ -6,5 +6,6 @@ await esbuild.build({
   format: 'cjs',
   platform: 'node',
   target: 'node14',
+  treeShaking: true,
   watch: true
 })
