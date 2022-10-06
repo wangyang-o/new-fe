@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "a frontend cli",
   "files": [
-    "new.cjs"
+    "new.cjs",
+    "template"
   ],
   "bin": {
     "new": "new.cjs"
